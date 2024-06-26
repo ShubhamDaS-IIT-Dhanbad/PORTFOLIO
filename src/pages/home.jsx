@@ -14,7 +14,7 @@ function Home() {
         </div>
         <div className='home-left-2'>
           I'm a <div className='home-left-2-title'>
-            <TypeAnimation
+            {/* <TypeAnimation
               sequence={[
                 'Frontend Developer',
                 3000,
@@ -27,7 +27,7 @@ function Home() {
               ]}
               wrapper="div"
               repeat={Infinity}
-            />
+            /> */}
           </div>
         </div>
         <p className='home-left-3'>
