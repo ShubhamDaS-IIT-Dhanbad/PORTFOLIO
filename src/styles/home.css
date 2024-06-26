@@ -113,7 +113,6 @@
 @media (max-width: 768px) {
   .home {
     flex-direction: column-reverse;
-    padding-top: 20px;
   }
 
   .home-left {
