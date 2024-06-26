@@ -172,7 +172,7 @@ function Resume() {
                             My success mantra is "focus on one thing and master it," which drives my 
                             commitment to delivering high-quality work and staying at the forefront of 
                             technological advancements.</p>
-                        <h3>WHATS APP | (+91) 8250846979</h3>
+                        <h3 className='about-phn'>WHATS APP | (+91) 8250846979</h3>
                     </div>
                 )}
             </div>
