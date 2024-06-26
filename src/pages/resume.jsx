@@ -43,7 +43,7 @@ function Resume() {
                             ABOUT ME
                         </div>
                         <a href={resume} className='resume-download-cv' download>
-                            DOWNLOAD CV <FaDownload className='FaDownload'/>
+                            DOWNLOAD CV <FaDownload className='FaDownload' />
                         </a>
                     </div>
                 </div>
@@ -90,8 +90,10 @@ function Resume() {
                 {activeSection === 'education' && (
                     <div className='resume-content'>
                         <h2>My Education</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos officia obcaecati nihil rem harum quibusdam, odio iste autem sunt neque? Omnis ducimus tempora deserunt? Sed, non? Doloremque rem itaque blanditiis?</p>
-                        <div className='experience'>
+                        <p>I completed my 10th and 12th grades from the CBSE board at Saraswati Devi Public School.
+                            I am currently pursuing a Bachelor of Technology in Engineering Physics at the Indian Institute
+                            of Technology (IIT) Dhanbad, with an expected graduation in 2026
+                        </p><div className='experience'>
                             <div className='experience-item'>
                                 <p>2019 - 2020</p>
                                 <h3>CLASS X</h3>
@@ -154,8 +156,8 @@ function Resume() {
                 {activeSection === 'skills' && (
                     <div className='resume-content'>
                         <h2>My Skills</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos officia 
-                            obcaecati nihil rem harum quibusdam, odio iste autem sunt neque? Omnis ducimus 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos officia
+                            obcaecati nihil rem harum quibusdam, odio iste autem sunt neque? Omnis ducimus
                             tempora deserunt? Sed, non? Doloremque rem itaque blanditiis?</p>
                         <div className='skills-grid'>
                             <FaHtml5 className='skill' />
@@ -175,10 +177,10 @@ function Resume() {
                 {activeSection === 'about' && (
                     <div className='resume-content'>
                         <h2>About Me</h2>
-                        <p className='about-paragraph'>As an IT web developer passionate about excelling in the IT industry and 
+                        <p className='about-paragraph'>As an IT web developer passionate about excelling in the IT industry and
                             software development, I am eager to learn and constantly improve my skills.
-                            My success mantra is "focus on one thing and master it," which drives my 
-                            commitment to delivering high-quality work and staying at the forefront of 
+                            My success mantra is "focus on one thing and master it," which drives my
+                            commitment to delivering high-quality work and staying at the forefront of
                             technological advancements.</p>
                         <h3 className='about-phn'>WHATS APP | (+91) 8250846979</h3>
                     </div>

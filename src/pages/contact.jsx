@@ -26,7 +26,8 @@ function Contact() {
       <div className='contact-div'>
         <div className='contact-div-left'>
           <h2>LET'S WORK TOGETHER</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora expedita deleniti porro quos illum aliquid voluptatum saepe, temporibus vitae eaque quod neque minus distinctio enim iusto unde dolore.</p>
+          <p>I am eager to work with you and gain valuable experience from this opportunity. 
+            I am highly passionate about new technologies and committed to continuous learning</p>
           <form className='contact-form' onSubmit={handleSubmit}>
             <div className='contact-grid'>
               <input type='text' name='firstName' placeholder='First Name' required />
