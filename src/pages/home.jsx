@@ -1,9 +1,8 @@
-// Home.jsx
 import React from 'react';
 import '../styles/home.css';
 import logo from '../assets/cyan.jpg';
 
-import TypeAnimation from '../utils/typeAnimation.jsx'; // Import corrected TypeAnimation component
+import TypeAnimation from '../utils/typeAnimation.jsx'; // Adjust the import path based on your project structure
 import { FaLinkedin, FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaGithubSquare } from "react-icons/fa";
 
 function Home() {
@@ -32,10 +31,10 @@ function Home() {
           </div>
         </div>
         <p className='home-left-3'>
-        As I embark on my academic journey in Engineering Physics at IIT Dhanbad, my fervent passion for 
-        web development propels me forward. With each day, I eagerly delve into the vast landscape of IT, 
-        driven by an insatiable hunger for knowledge and innovation. Through my boundless creativity and 
-        unwavering dedication, I am determined to leave an indelible mark in the dynamic realm of web development.
+          As I embark on my academic journey in Engineering Physics at IIT Dhanbad, my fervent passion for 
+          web development propels me forward. With each day, I eagerly delve into the vast landscape of IT, 
+          driven by an insatiable hunger for knowledge and innovation. Through my boundless creativity and 
+          unwavering dedication, I am determined to leave an indelible mark in the dynamic realm of web development.
         </p>
         <div className='home-left-4'>
           <FaLinkedin className='footer-icons-div' />
@@ -51,9 +50,10 @@ function Home() {
       </div>
       
       <div className='home-right'>
-        <img src={logo}/>
+        <img src={logo} alt="Logo" />
       </div>
     </div>
   );
 }
+
 export default Home;
