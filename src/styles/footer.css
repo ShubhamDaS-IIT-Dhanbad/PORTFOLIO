@@ -1,0 +1,28 @@
+.footer{
+    width: 100vw;
+    height: 50px;
+    gap: 10px;
+    display: flex;flex-direction: column;
+    padding-bottom: 50px;
+}
+.footer-lcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+}
+#footer-lcons-div{
+    font-size: 40px;
+    padding: 0;margin: 0;
+    color: cyan;
+}
+#footer-lcons-div:hover{
+    cursor: pointer;
+    scale: 1.1;
+    border-radius: 10px;
+    box-shadow: 0 0 0px rgba(0, 248, 248, 0.7), 0 0 10px rgba(72, 229, 229, 0.836), 0 0 15px rgba(0, 248, 248, 0.3);
+}

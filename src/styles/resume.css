@@ -1,0 +1,152 @@
+.resume {
+    color: white;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.resume-container {
+    width: 80%;
+    position: relative;
+    top: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.resume-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 35%;
+}
+
+.resume-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.resume-description {
+    color: rgba(255, 255, 255, 0.865);
+    font-size: 16px;
+}
+
+.resume-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.resume-nav-item {
+    width: 100%;
+    padding: 7px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.resume-nav-item:hover,
+.resume-nav-item-active {
+    background-color: cyan;
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: 100ms;
+}
+
+.resume-content {
+    width: 55%;
+}
+
+.experience {
+    display: flex;justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.experience-item {
+    width: 50%;
+    margin-bottom: 20px;
+}
+.experience-item-div{
+    display: flex;align-items:center;
+    gap: 3px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.experience-item-div-circle{
+    background-color: greenyellow;
+    border-radius: 50%;
+    height: 7px;width: 7px;
+}
+.resume-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-width: calc(100vh - 55px);
+    padding: 20px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;color: white;
+}
+
+.skill {
+    background-color: #000000;
+    font-size: 60px;
+
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.resume-download-cv{
+    gap: 15px;
+    text-decoration: none;
+    color: rgb(54, 209, 220);
+    border: 1px solid cyan;
+    width: 100%;
+    padding: 7px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    
+    transition: transform 0.2s;
+}
+
+.FaDownload:hover  {
+    transform: scale(1.1);color: white;
+    transition: transform 0.2s;
+}
+
+.skill:hover{
+    cursor: pointer;
+    scale: 1.1;
+    background-color: cyan;
+    color: black;
+    box-shadow: 0 0 0px rgba(0, 248, 248, 0.7), 0 0 10px rgba(72, 229, 229, 0.836), 0 0 15px rgba(0, 248, 248, 0.3);
+}
+
+
+@media (max-width: 768px) {
+    .resume-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resume-sidebar,
+    .resume-content {
+        width: 100%;
+    }
+}

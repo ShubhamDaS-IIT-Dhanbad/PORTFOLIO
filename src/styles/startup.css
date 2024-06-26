@@ -1,0 +1,69 @@
+.startup {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  .startup-div{
+    width: 80%;
+    min-height: 80vh;
+    display: flex;
+  }
+  .startup-div-left, .startup-div-right {
+    flex: 1;display: flex;flex-direction: column;
+    padding: 20px;gap: 8px;
+  }
+ 
+  .startup-div-left-name{
+    display: flex;
+    flex-direction: column;font-size: 100px;
+  }
+  .startup-div-left h2 {
+    font-size: 24px;
+  }
+  
+  .startup-div-left h3 {
+    font-size: 20px;
+  }
+  
+  .startup-div-left p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .startup-icons {
+    display: flex;
+    gap: 10px;
+    font-size: 24px;
+  }
+  .startup-icons-CiLocationArrow1,.startup-icons-FaGithub{
+    background-color: rgb(0, 0, 0);
+    color: cyan;padding: 10px;
+    border-radius: 9px;
+    &:hover{
+        cursor: pointer;
+        background-color: cyan;
+        color: black;
+        box-shadow: 0 0 0px rgba(0, 248, 248, 0.7), 0 0 10px rgba(72, 229, 229, 0.836), 0 0 15px rgba(0, 248, 248, 0.3);
+    }
+  }
+  
+  .startup-div-right img {
+    height: auto;
+    width: 110%;
+  }
+  .startup-div-right-button{
+    display: flex;gap: 10px;
+  }
+  .startup-div-right-button-prev,.startup-div-right-button-next{
+    background-color: cyan;
+        box-shadow: 0 0 0px rgba(0, 248, 248, 0.7), 0 0 10px rgba(72, 229, 229, 0.836), 0 0 15px rgba(0, 248, 248, 0.3);
+        color: black;border-radius: 8px;
+    &:hover{
+        scale: 1.1;
+        cursor: pointer;
+        
+    }
+  }
