@@ -113,7 +113,7 @@
 @media (max-width: 768px) {
   .home {
     flex-direction: column-reverse;
-    justify-content: flex-start;
+    justify-content: flex-end;
     margin-top: -0px;
   }
 
