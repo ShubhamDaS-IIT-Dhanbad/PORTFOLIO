@@ -59,10 +59,10 @@ function Startup() {
                     <img src={images[currentImageIndex]} alt="Bharat Linker" />
                     <div className='startup-div-right-button'>
                         <div onClick={handlePrevClick}>
-                            <GrFormPrevious className='startup-div-right-button-prev' size={30} />
+                            <GrFormPrevious className='startup-div-right-button-prev' />
                         </div>
                         <div onClick={handleNextClick}>
-                            <MdNavigateNext className='startup-div-right-button-next' size={30} />
+                            <MdNavigateNext className='startup-div-right-button-next' />
                         </div>
                     </div>
                 </div>
