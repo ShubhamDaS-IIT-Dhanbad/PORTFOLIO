@@ -64,7 +64,7 @@
 
 @media (max-width: 768px) {
   .navbar {
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 4px;
   }
   
