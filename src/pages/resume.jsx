@@ -53,37 +53,37 @@ function Resume() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos officia obcaecati nihil rem harum quibusdam, odio iste autem sunt neque? Omnis ducimus tempora deserunt? Sed, non? Doloremque rem itaque blanditiis?</p>
                         <div className='experience'>
                             <div className='experience-item'>
-                                <p>2020 - 2021</p>
-                                <h3>Freelance Web Developer</h3>
+                                <p>2022 - TILL NOW</p>
+                                <h3>WEB DEVELOPMENT</h3>
                                 <div className='experience-item-div'>
                                     <div className='experience-item-div-circle'></div>
-                                    E-commerce Startup
+                                    MERN FULL-STACK
                                 </div>
                             </div>
                             <div className='experience-item'>
-                                <p>2020 - 2021</p>
+                                <p>2023 - TILL NOW</p>
                                 <h3>Freelance Web Developer</h3>
                                 <div className='experience-item-div'>
                                     <div className='experience-item-div-circle'></div>
-                                    E-commerce Startup
+                                    FIVERR
                                 </div>
                             </div>
                             <div className='experience-item'>
+                                <p>2024 - TILL NOW</p>
+                                <h3>START UP</h3>
+                                <div className='experience-item-div'>
+                                    <div className='experience-item-div-circle'></div>
+                                    BHARAT | LINKER
+                                </div>
+                            </div>
+                            {/* <div className='experience-item'>
                                 <p>2020 - 2021</p>
                                 <h3>Freelance Web Developer</h3>
                                 <div className='experience-item-div'>
                                     <div className='experience-item-div-circle'></div>
                                     E-commerce Startup
                                 </div>
-                            </div>
-                            <div className='experience-item'>
-                                <p>2020 - 2021</p>
-                                <h3>Freelance Web Developer</h3>
-                                <div className='experience-item-div'>
-                                    <div className='experience-item-div-circle'></div>
-                                    E-commerce Startup
-                                </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 )}
@@ -93,7 +93,7 @@ function Resume() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos officia obcaecati nihil rem harum quibusdam, odio iste autem sunt neque? Omnis ducimus tempora deserunt? Sed, non? Doloremque rem itaque blanditiis?</p>
                         <div className='experience'>
                             <div className='experience-item'>
-                                <p>2020 - 2021</p>
+                                <p>2019 - 2020</p>
                                 <h3>CLASS X</h3>
                                 <h4>BOARD | CBSE</h4>
                                 <h5> SARASWATI DEVI PUBLIC SCHOOL</h5>
@@ -103,7 +103,7 @@ function Resume() {
                                 </div>
                             </div>
                             <div className='experience-item'>
-                                <p>2020 - 2021</p>
+                                <p>2021 - 2022</p>
                                 <h3>CLASS XII</h3>
                                 <h4>BOARD | CBSE</h4>
                                 <h5> SARASWATI DEVI PUBLIC SCHOOL</h5>
@@ -113,7 +113,15 @@ function Resume() {
                                 </div>
                             </div>
                             <div className='experience-item'>
-                                <p>2020 - 2021</p>
+                                <p>2022</p>
+                                <h3>WBJEE</h3>
+                                <div className='experience-item-div'>
+                                    <div className='experience-item-div-circle'></div>
+                                    RANK UNDER 800 GEN ALL WEST BENGAL RANK
+                                </div>
+                            </div>
+                            <div className='experience-item'>
+                                <p>2022</p>
                                 <h3>JEE MAIN</h3>
                                 <div className='experience-item-div'>
                                     <div className='experience-item-div-circle'></div>
@@ -121,7 +129,7 @@ function Resume() {
                                 </div>
                             </div>
                             <div className='experience-item'>
-                                <p>2020 - 2021</p>
+                                <p>2022</p>
                                 <h3>JEE ADVANCE</h3>
                                 <div className='experience-item-div'>
                                     <div className='experience-item-div-circle'></div>
@@ -129,7 +137,7 @@ function Resume() {
                                 </div>
                             </div>
                             <div className='experience-item'>
-                                <p>2020 - 2021</p>
+                                <p>2022 - 2026</p>
                                 <h3>BTECH</h3>
                                 <h5>INDIAN INSTITUTE OF TECHNOLOGY OF DHANBAD | IIT(ISM) DHANBAD</h5>
                                 <div className='experience-item-div'>
@@ -137,7 +145,7 @@ function Resume() {
                                 </div>
                                 <div className='experience-item-div'>
                                     <div className='experience-item-div-circle'></div>
-                                    4th SEM CGPA | 7.08
+                                    4th SEM CGPA
                                 </div>
                             </div>
                         </div>
