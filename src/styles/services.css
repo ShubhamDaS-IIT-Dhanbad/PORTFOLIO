@@ -1,3 +1,4 @@
+/* services.css */
 .services {
     display: flex;
     justify-content: center;
@@ -8,64 +9,75 @@
     color: white;
 }
 
-.services-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
-    height: 80vh;
-}
-
-.services-div-1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 34%;
-    gap: 30px;
-}
-
-.services-div-1-1 {
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns in grid */
+    gap: 20px;
     width: 50%;
-    transition: transform 0.3s;
+    max-width: 100%;
+    height: auto;
+    padding: 20px; /* Add padding for better spacing */
 }
 
-.services-div-1-1:hover {
+.services-item {
+    transition: transform 0.3s;
+    padding: 10px; /* Add padding for better spacing */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.services-item:hover {
     cursor: pointer;
     transform: scale(1.05);
 }
 
-.services-div-1-1-1 {
+.services-item-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Bebas Neue';
-    font-size: 33px;
+    font-size: 24px; /* Adjust font size */
 }
 
-.services-div-1-1-2 {
-    font-size: 24px;
+.services-item-title {
+    font-size: 18px; /* Adjust font size */
     font-weight: 600;
     color: rgb(85, 233, 235);
     text-shadow: 0 0 0px rgba(0, 248, 248, 0.7), 0 0 10px rgba(72, 229, 229, 0.836), 0 0 15px rgba(0, 248, 248, 0.3);
 }
 
-.services-div-1-1 p {
+.services-item p {
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.7);
 }
 
 /* Arrow styling */
-.services-div-1-arrow {
-    width: 30px;
-    height: 30px;
+.services-item-arrow {
+    width: 30px; /* Adjust size */
+    height: 30px; /* Adjust size */
     border-radius: 50%;
     transition: background-color 0.3s;
 }
 
-.services-div-1-1:hover .services-div-1-arrow {
+.services-item:hover .services-item-arrow {
     color: cyan;
     transform: rotate(90deg);
-    
     transition: 2s;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr; /* Single column for smaller screens */
+        width: 90%;
+    }
+    .services-item-header {
+        font-size: 22px; /* Adjust font size */
+    }
+    .services-item-title {
+        font-size: 16px; /* Adjust font size */
+    }
+    .services-item-arrow {
+        width: 20px; /* Adjust size */
+        height: 20px; /* Adjust size */
+    }
 }
