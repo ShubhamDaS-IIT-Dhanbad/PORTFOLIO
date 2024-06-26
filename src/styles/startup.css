@@ -20,8 +20,8 @@
     display: flex;
     flex-direction: column;font-size: 100px;
   }
-  .startup-div-left h2 {
-    font-size: 24px;
+  .startup-div-left-name {
+    font-size: 29px;font-weight: 700;
   }
   
   .startup-div-left h3 {
@@ -67,3 +67,39 @@
         
     }
   }
+
+  @media (max-width: 768px) {
+    .startup {
+      display: flex;
+      flex-direction: column;
+      align-items:start;
+      justify-content: start;
+      padding: 10px;
+    }
+  
+    .startup-div {
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      justify-content: center;
+      width: 100%;
+      padding: 5px;
+    }
+  
+    .startup-div-left-name {
+      font-size: 31px;font-weight: 700;
+    }
+    .startup-div-left h3 {
+      font-size: 19px;
+    }
+  
+    .startup-div-left p {
+      font-size: 14px;
+    }
+  
+    .startup-div-right img {
+      max-height: 60vh;
+      width: 100%;
+    }
+  }
+  

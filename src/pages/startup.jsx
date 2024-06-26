@@ -40,7 +40,7 @@ function Startup() {
             <div className='startup-div'>
                 <div className='startup-div-left'>
                     <div className='startup-div-left-name'>
-                        <h2>BHARAT | LINKER</h2>
+                        BHARAT | LINKER
                     </div>
                     <h3>MERN - Technology</h3>
                     <p>
