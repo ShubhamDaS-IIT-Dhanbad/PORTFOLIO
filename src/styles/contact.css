@@ -93,7 +93,6 @@
     flex: 1;
     padding: 40px;
   }
-  
   .contact-div-left h2 {
     color: cyan;
     text-shadow: 0 0 0px rgba(0, 248, 248, 0.7), 0 0 10px rgba(72, 229, 229, 0.836), 0 0 15px rgba(0, 248, 248, 0.3);
@@ -101,25 +100,20 @@
     font-size: 24px;
     margin-bottom: 20px;
   }
-  
   .contact-div-left p {
     font-size: 16px;
     margin-bottom: 30px;
   }
-  
   .contact-form {
     display: flex;
     flex-direction: column;
   }
-  
   .contact-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-bottom: 20px;
-  }
- 
-  
+  } 
   .contact-form input, .contact-form textarea, .contact-form button {
     padding: 10px;
     margin-bottom: 10px;
@@ -139,7 +133,6 @@
     padding: 10px 0;
     font-size: 16px;
   }
-  
   .contact-form button:hover {
     box-shadow: 0 0 0px rgba(0, 248, 248, 0.7), 0 0 10px rgba(72, 229, 229, 0.836), 0 0 15px rgba(0, 248, 248, 0.3);
   }

@@ -10,12 +10,11 @@ function Contact() {
     setNotification('Message sent successfully!');
     setTimeout(() => {
       setNotification(null);
-    }, 3000); // Clear notification after 3 seconds
+    }, 3000);
   };
-
+  
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Simulating sending message (remove setTimeout in actual implementation)
     setTimeout(() => {
       notifySuccess();
       e.target.reset();

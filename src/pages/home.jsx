@@ -49,11 +49,11 @@ function Home() {
           <div className='home-left-5-2'>Contact</div>
         </div>
       </div>
+      
       <div className='home-right'>
         <img src={logo}/>
       </div>
     </div>
   );
 }
-
 export default Home;
