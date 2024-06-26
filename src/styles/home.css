@@ -142,7 +142,7 @@
     width: 250px;
     display: flex;
     justify-content: center;align-items: center;
-    margin: 0 auto; /* Center the image */
+    margin: 20px auto; /* Center the image */
   }
 
   .home-right img {
