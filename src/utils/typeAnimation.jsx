@@ -47,10 +47,12 @@ const TypeAnimation = ({ sequence, wrapper, repeat }) => {
 
   useEffect(() => {
     if (repeat && currentIndex === sequence.length && !isTyping) {
-      setTimeout(() => {
+      const repeatInterval = setTimeout(() => {
         setCurrentIndex(0);
         setIsTyping(true);
       }, 3000);
+
+      return () => clearTimeout(repeatInterval);
     }
   }, [currentIndex, isTyping, sequence, repeat]);
 

@@ -7,10 +7,7 @@ import { FaLinkedin, FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaGit
 
 function Home() {
   const sequence = [
-    'Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer',
+    'Frontend Developer'
   ];
   return (
     <div className='home'>
