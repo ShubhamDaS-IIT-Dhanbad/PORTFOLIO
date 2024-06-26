@@ -110,6 +110,21 @@ function Home() {
   const handleHireClick = () => {
     navigate('/contact'); // Update this path to match your contact page route
   };
+  const handleLinkedInClick = () => {
+    navigate('/www.linkedin.com/in/shubham-das-22je0936'); // Update this path to match your contact page route
+  };
+  const handleInstaClick = () => {
+    navigate('/https://www.instagram.com/shubhdasham');
+  };
+  const handleTwitterClick = () => {
+    alert("ABHI TO NHI HAI KHOL LENGE :)")
+  };
+  const handleGitClick = () => {
+    navigate('/https://github.com/ShubhamDaS-IIT-Dhanbad'); // Update this path to match your contact page route
+  };
+  const handleFaceBookClick = () => {
+    alert("ABHI TO NHI HAI KHOL LENGE :)")
+  };
   return (
     <div className='home'>
       <div className='home-left'>
@@ -128,11 +143,11 @@ function Home() {
           unwavering dedication, I am determined to leave an indelible mark in the dynamic realm of web development.
         </p>
         <div className='home-left-4'>
-          <FaLinkedin className='footer-icons-div' />
-          <FaFacebookSquare className='footer-icons-div' />
-          <FaInstagramSquare className='footer-icons-div' />
-          <FaTwitterSquare className='footer-icons-div' />
-          <FaGithubSquare className='footer-icons-div' />
+          <FaLinkedin className='footer-icons-div' onClick={handleLinkedInClick}/>
+          <FaFacebookSquare className='footer-icons-div' onClick={handleFaceBookClick}/>
+          <FaInstagramSquare className='footer-icons-div'onClick={ handleInstaClick} />
+          <FaTwitterSquare className='footer-icons-div' onClick={handleTwitterClick}/>
+          <FaGithubSquare className='footer-icons-div' onClick={handleGitClick }/>
         </div>
         <div className='home-left-5'>
       <div className='home-left-5-1' onClick={handleContactClick}>Hire</div>
