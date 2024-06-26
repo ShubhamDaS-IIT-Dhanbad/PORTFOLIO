@@ -22,23 +22,37 @@ const TypeAnimation = ({ sequence, wrapper, repeat }) => {
         );
       }, 60);
     } else {
-      const currentText = sequence[currentIndex];
-      intervalId = setInterval(() => {
-        setText(prevText =>
-          prevText.length === 0
-            ? (() => {
-                clearInterval(intervalId);
-                setCurrentIndex(prevIndex => (prevIndex + 1) % sequence.length);
-                setIsTyping(true);
-                return prevText;
-              })()
-            : currentText.substring(0, prevText.length - 1)
-        );
-      }, 50);
+      if (currentIndex >= sequence.length) {
+        setCurrentIndex(0);
+        setIsTyping(true);
+      } else {
+        const currentText = sequence[currentIndex];
+        intervalId = setInterval(() => {
+          setText(prevText =>
+            prevText.length === 0
+              ? (() => {
+                  clearInterval(intervalId);
+                  setCurrentIndex(prevIndex => prevIndex + 1);
+                  setIsTyping(true);
+                  return prevText;
+                })()
+              : currentText.substring(0, prevText.length - 1)
+          );
+        }, 50);
+      }
     }
 
     return () => clearInterval(intervalId);
   }, [currentIndex, isTyping, sequence]);
+
+  useEffect(() => {
+    if (repeat && currentIndex === sequence.length && !isTyping) {
+      setTimeout(() => {
+        setCurrentIndex(0);
+        setIsTyping(true);
+      }, 3000);
+    }
+  }, [currentIndex, isTyping, sequence, repeat]);
 
   return React.createElement(wrapper, null, text);
 };

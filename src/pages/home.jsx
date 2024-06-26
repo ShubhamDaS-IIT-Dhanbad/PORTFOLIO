@@ -6,6 +6,12 @@ import TypeAnimation from '../utils/typeAnimation.jsx'; // Adjust the import pat
 import { FaLinkedin, FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaGithubSquare } from "react-icons/fa";
 
 function Home() {
+  const sequence = [
+    'Frontend Developer',
+    'Backend Developer',
+    'MERN Developer',
+    'Software Developer',
+  ];
   return (
     <div className='home'>
       <div className='home-left'>
@@ -14,20 +20,7 @@ function Home() {
         </div>
         <div className='home-left-2'>
           I'm a <div className='home-left-2-title'>
-            {/* <TypeAnimation
-              sequence={[
-                'Frontend Developer',
-                3000,
-                'Backend Developer',
-                3000,
-                'MERN Developer',
-                3000,
-                'Software Developer',
-                3000,
-              ]}
-              wrapper="div"
-              repeat={Infinity}
-            /> */}
+          <TypeAnimation sequence={sequence} wrapper="div" repeat={Infinity} />
           </div>
         </div>
         <p className='home-left-3'>
