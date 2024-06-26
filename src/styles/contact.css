@@ -186,7 +186,6 @@
     display: flex;
     padding: 10px;
     flex-direction: column;
-    justify-content: center;align-items: center;
   }
   
   .contact-grid {
@@ -214,7 +213,6 @@
     font-weight: bolder;
     cursor: pointer;
     border: none;
-    padding: 10px 0;
     font-size: 16px;
   }
   
