@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../styles/home.css';
 import logo from '../assets/cyan.jpg';
 
@@ -101,6 +102,14 @@ function Home() {
     'MERN Developer',
     'Software Developer',
   ];
+  const navigate = useNavigate();
+
+  const handleContactClick = () => {
+    navigate('/contact'); // Update this path to match your contact page route
+  };
+  const handleHireClick = () => {
+    navigate('/contact'); // Update this path to match your contact page route
+  };
   return (
     <div className='home'>
       <div className='home-left'>
@@ -126,9 +135,9 @@ function Home() {
           <FaGithubSquare className='footer-icons-div' />
         </div>
         <div className='home-left-5'>
-          <div className='home-left-5-1'>Hire</div>
-          <div className='home-left-5-2'>Contact</div>
-        </div>
+      <div className='home-left-5-1' onClick={handleContactClick}>Hire</div>
+      <div className='home-left-5-2' onClick={handleContactClick}>Contact</div>
+    </div>
       </div>
       
       <div className='home-right'>
