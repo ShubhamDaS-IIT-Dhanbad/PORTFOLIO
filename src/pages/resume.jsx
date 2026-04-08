@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/resume.css';
-import resume from '../assets/resume.pdf';
+import resume from '../assets/JP_morgan_cv_22je0936.pdf';
 
 import { FaPython, FaDownload, FaDatabase, FaChartBar } from "react-icons/fa";
 import { SiTensorflow, SiPytorch, SiScikitlearn, SiPandas, SiMicrosoftazure, SiMysql, SiPowerbi } from "react-icons/si";
