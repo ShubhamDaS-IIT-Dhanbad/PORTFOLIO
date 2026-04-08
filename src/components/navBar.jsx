@@ -52,9 +52,9 @@ const NavBar = () => {
           <>
             <div className={`navbar-right`}>
               <Link className={`navbar-right-link-properties ${location.pathname === '/' ? 'active' : ''}`} to="/">HOME</Link>
-              <Link className={`navbar-right-link-properties ${location.pathname === '/service' ? 'active' : ''}`} to="/service">SERVICE</Link>
+              {/* <Link className={`navbar-right-link-properties ${location.pathname === '/service' ? 'active' : ''}`} to="/service">SERVICE</Link> */}
               <Link className={`navbar-right-link-properties ${location.pathname === '/resume' ? 'active' : ''}`} to="/resume">RESUME</Link>
-              <Link className={`navbar-right-link-properties ${location.pathname === '/startup' ? 'active' : ''}`} to="/startup">STARTUP</Link>
+              {/* <Link className={`navbar-right-link-properties ${location.pathname === '/startup' ? 'active' : ''}`} to="/startup">STARTUP</Link> */}
               <Link className={`navbar-right-link-properties ${location.pathname === '/contact' ? 'active' : ''}`} to="/contact">CONTACT</Link>
             </div>
           </>
@@ -63,9 +63,9 @@ const NavBar = () => {
       {isMenuOpen && (
         <div className={`mobile-side-menu ${isMenuOpen ? 'open' : ''}`}>
           <Link className={`mobile-menu-link ${location.pathname === '/' ? 'active' : ''}`} to="/" onClick={handleLinkClick}>HOME</Link>
-          <Link className={`mobile-menu-link ${location.pathname === '/service' ? 'active' : ''}`} to="/service" onClick={handleLinkClick}>SERVICE</Link>
+          {/* <Link className={`mobile-menu-link ${location.pathname === '/service' ? 'active' : ''}`} to="/service" onClick={handleLinkClick}>SERVICE</Link> */}
           <Link className={`mobile-menu-link ${location.pathname === '/resume' ? 'active' : ''}`} to="/resume" onClick={handleLinkClick}>RESUME</Link>
-          <Link className={`mobile-menu-link ${location.pathname === '/startup' ? 'active' : ''}`} to="/startup" onClick={handleLinkClick}>STARTUP</Link>
+          {/* <Link className={`mobile-menu-link ${location.pathname === '/startup' ? 'active' : ''}`} to="/startup" onClick={handleLinkClick}>STARTUP</Link> */}
           <Link className={`mobile-menu-link ${location.pathname === '/contact' ? 'active' : ''}`} to="/contact" onClick={handleLinkClick}>CONTACT</Link>
         </div>
       )}
