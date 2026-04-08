@@ -117,7 +117,7 @@ function Resume() {
                         <p>
                             I completed my schooling from Saraswati Devi Public School (CBSE) and
                             cleared JEE Advanced to secure admission at IIT (ISM) Dhanbad, where I am
-                            pursuing a B.Tech in Engineering Physics (Expected 2026) with a GPA of 8.62/10.
+                            pursuing a B.Tech in Engineering Physics (Expected 2026) with a GPA of 7.08/10.
                         </p>
                         <div className='experience'>
                             <div className='experience-item'>
@@ -137,7 +137,7 @@ function Resume() {
                                 <h5>SARASWATI DEVI PUBLIC SCHOOL</h5>
                                 <div className='experience-item-div'>
                                     <div className='experience-item-div-circle'></div>
-                                    GRADE 90%
+                                   9.5/10 gpa
                                 </div>
                             </div>
                             <div className='experience-item'>
@@ -162,7 +162,7 @@ function Resume() {
                                 <h5>INDIAN INSTITUTE OF TECHNOLOGY (ISM) DHANBAD</h5>
                                 <div className='experience-item-div'>
                                     <div className='experience-item-div-circle'></div>
-                                    GPA: 8.62 / 10
+                                    GPA: 7.08 / 10
                                 </div>
                                 <div className='experience-item-div'>
                                     <div className='experience-item-div-circle'></div>
