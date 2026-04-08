@@ -3,94 +3,31 @@ import { useNavigate } from 'react-router-dom';
 import '../styles/home.css';
 import logo from '../assets/cyan.jpg';
 
-import TypeAnimation from '../utils/typeAnimation.jsx'; // Adjust the import path based on your project structure
+import TypeAnimation from '../utils/typeAnimation.jsx';
 import { FaLinkedin, FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaGithubSquare } from "react-icons/fa";
 
 function Home() {
   const sequence = [
-    'Frontend Developer','Software Developer','Frontend Developer',
-    'Backend Developer','Software Developer','Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer','Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer','Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer','Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer','Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer','Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'MERN Developer',
-    'Software Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer',
-    'Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer',
-    'Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer',
-    'Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer',
-    'Frontend Developer',
-   
-    'MERN Developer',
-    'Software Developer','Frontend Developer', 'Backend Developer',
-    'MERN Developer',
-    'Software Developer',
-    'Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer',
-    'Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer','Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer','Frontend Developer',
-    'Backend Developer','Software Developer',
-    'Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer',
-    'Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer',
-    'Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer','Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer','Frontend Developer','Backend Developer','MERN Developer',
-    'Software Developer','Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer','Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    'Software Developer','Frontend Developer',
-    'Backend Developer',
-    'MERN Developer',
-    
-    
+    'Machine Learning Engineer',
+    'AI/ML Developer',
+    'Quantitative Analyst',
+    'Data Scientist',
+    'Financial Data Analyst',
+    'AI/ML Developer',
+    'Machine Learning Engineer',
+    'Quantitative Analyst',
+    'Data Scientist',
+    'Financial Data Analyst',
+    'Machine Learning Engineer',
+    'AI/ML Developer',
+    'Quantitative Analyst',
+    'Data Scientist',
+    'Financial Data Analyst',
+    'Machine Learning Engineer',
+    'AI/ML Developer',
+    'Quantitative Analyst',
+    'Data Scientist',
+    'Financial Data Analyst',
   ];
 
   const navigate = useNavigate();
@@ -108,7 +45,6 @@ function Home() {
   };
 
   const handleTwitterClick = () => {
-    // Handle Twitter click action
     alert("TERE LYA KHOL NA PDEGA :)");
   };
 
@@ -128,10 +64,10 @@ function Home() {
           </div>
         </div>
         <p className='home-left-3'>
-          As I embark on my academic journey in Engineering Physics at IIT Dhanbad, my fervent passion for 
-          web development propels me forward. With each day, I eagerly delve into the vast landscape of IT, 
-          driven by an insatiable hunger for knowledge and innovation. Through my boundless creativity and 
-          unwavering dedication, I am determined to leave an indelible mark in the dynamic realm of web development.
+          Final-year Engineering Physics student at IIT (ISM) Dhanbad with a passion for 
+          Machine Learning, AI, and quantitative finance. I build intelligent systems — from 
+          RAG-based AI pipelines and NLP-driven trading signal engines to credit risk analytics 
+          dashboards managing  portfolios. Currently exploring opportunities in AI/ML
         </p>
         <div className='home-left-4'>
           <FaLinkedin className='footer-icons-div' onClick={handleLinkedInClick} />
